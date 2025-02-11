@@ -4,3 +4,10 @@
 .bgimg {
   background-image: url("/assets/doodle\ items.png");
 }
+
+.my-recent-work {
+  background-image: url("/assets/doodleitems.png");
+  background-repeat: repeat;
+  /* width:33%; */
+
+}
