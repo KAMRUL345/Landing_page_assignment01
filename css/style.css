@@ -1,13 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header-image {
   width: 150px;
 }
-.bgimg {
+.bg-img {
   background-image: url("/assets/doodle\ items.png");
+  background-repeat: repeat;
+  background-size: 33%;
 }
 
 .my-recent-work {
   background-image: url("/assets/doodleitems.png");
   background-repeat: repeat;
   /* width:33%; */
+}
 
+.hero-text {
+  font-size: 96px;
+  font-family: poppins;
+  font-family: "Poppins", serif;
+}
+
+.hero-text2 {
+  font-size: 96px;
+  font-family: poppins;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* About Me section */
+
+.about-me {
+  font-size: 64px;
+  font-family: poppins;
+}
+
+.about-me-para {
+  font-family: poppins;
+  font-size: 18px;
+}
+
+.about-me-img {
+  background-image: url("/assets/doodleitems.png");
+  width: 100%;
+  height: auto;
 }
