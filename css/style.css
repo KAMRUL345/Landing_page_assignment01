@@ -5,19 +5,45 @@ body {
   padding: 0;
 }
 
+.header {
+  border-bottom: 1px solid #3b3a3aa8;
+}
 .header-image {
   max-width: 150px;
+  /* padding: 96px 48px 48px 96px; */
+  /* width: 109px;
+  height: 36px; */
 }
 .bg-img {
   background-image: url("/assets/doodle\ items.png");
   background-repeat: repeat;
   background-size: 33%;
 }
+.nav-link {
+  list-style-type: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
 
 .my-recent-work {
   background-image: url("/assets/doodleitems.png");
   background-repeat: repeat;
+  padding: 5px;
   /* width:33%; */
+}
+
+.my-recent-desing {
+  background-color: #423d3d76;
+  width: 368px;
+  height: 280px;
+  padding: 45px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text {
@@ -62,4 +88,5 @@ body {
   padding: 10px;
   margin: 10px;
   border-radius: 100px;
+  text-decoration: none;
 }

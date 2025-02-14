@@ -16,7 +16,7 @@
   </head>
   <body style="background-color: #222831;">
     <!-- Header Section -->
-    <section class="container-xxl">
+    <section class="container-xxl header">
       <header class="d-flex justify-content-between w-100 py-5">
         <div>
           <img
@@ -26,7 +26,7 @@
             srcset=""
           />
         </div>
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end nav-link">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Contact</a></li>
@@ -60,15 +60,15 @@
       
     </section>
     <!-- About Me Section -->
-    <section class="container-xxl py-5">
+    <section class="container py-5">
       <div class="d-flex">
-        <div class="col-xxl-6 py-5 my-5 about-me">
+        <div class="col-md-6 py-5 my-5 about-me">
           <h1><span class="text-white">About</span><span class="text-info"> me</span></h1>
           <p class="text-white about-me-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... Read more</p>
 
         </div>
-        <div class="col-xxl-6 about-me-img">
-          <img class="img-fluid px-5 mx-5" src="./assets/Group 62.png" alt="">
+        <div class="col-md-6 about-me-img1">
+          <img class="img-fluid px-5 mx-5" src="./assets/Group 2373.png" alt="">
 
         </div>
       </div>
@@ -90,10 +90,19 @@
 
   
         </div>
-        <div class="d-flex">
-          <img class="w-25 col-lg-4 img-fluid" src="/assets/Course Website Landing Page Thumbnail 1.png" alt="">
-          <img class="col-lg-4 img-fluid"  src="/assets/Group 33.png" alt="">
-          <img class="col-lg-4 img-fluid"  src="/assets/Group 1.png" alt="">
+        <div class="d-flex justify-content-center">
+          <div class="my-recent-desing ">
+            <img class="img-fluid" src="/assets/Course Website Landing Page Thumbnail 1.png" alt="">
+          </div>
+          <div class="my-recent-desing">
+            <img class="img-fluid"  src="/assets/Group 33.png" alt="">
+          </div>
+          <div class="my-recent-desing">
+            <img class="img-fluid"  src="/assets/Group 1.png" alt="">
+          </div>
+          
+          
+          
         </div>
 
       </div>
@@ -109,31 +118,40 @@
           <img class="w-50" src="./assets/Group 2372.png" alt="">
         </div>
         <div class="col-xxl-6 col-lg-6 col-md-6 col-12 p-5 m-5">
-          <div class="form ">
-            <label for="name" class="form-label text-white">Your Name</label>
-            <input type="text" placeholder="Name" class="form-control">
-            <label for="name" class="form-label text-white">Your Email</label>
-            <input type="email" placeholder="Email" class="form-control">
+          <div class="form">
+            <div class="d-flex">
+              <div class="mx-2">
+                <label for="name" class="form-label text-white">Your Name</label>
+                <input type="text" placeholder="Name" class="form-control bg-secondary">
+              </div>
+              <div>
+
+              
+                <label for="name" class="form-label text-white">Your Email</label>
+                <input type="email" placeholder="Email" class="form-control bg-secondary">
+            </div>
+            </div>
             <label for="comments" class="form-label text-white" name="text">Your Message</label>
-            <textarea class="form-control" rows="5" placeholder="Message" name="text"></textarea>
+            <textarea class="form-control bg-secondary" rows="5" placeholder="Message" name="text" focus="green"></textarea>
+            <button class="bg-info mt-3 rounded-5 px-5 py-2">Send Message</button>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer section -->
-    <footer class="container-xxl">
+    <footer class="container-xxl" style="border-top: 2px solid #686262e1 !important">
       <div class="d-flex justify-content-center gap-5 pt-5">
         <div>
           <img src="./assets/icons/home.png" alt="">
-          <a class="text-white" href="#">Home</a>
+          <a class="text-white text-decoration-none" href="#">Home</a>
         </div>
         <div>
           <img src="./assets/icons/user.png" alt="">
-          <a class="text-white" href="#">About Me</a>
+          <a class="text-white text-decoration-none" href="#">About Me</a>
         </div>
         <div>
           <img src="./assets/icons/phone.png" alt="">
-          <a class="text-white" href="#">Contact</a>
+          <a class="text-white text-decoration-none" href="#">Contact</a>
         </div>
 
       </div>
@@ -141,7 +159,7 @@
       <!-- Social Icons -->
        <div>
         <div class="social-icon d-flex gap-3 py-5">
-          <a href="#"><i class="fa-brands fa-facebook text-white"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook bg-secondary"></i></a>
           <a href="#"><i class="fa-brands fa-instagram text-white"></i></a>
           <a href="#"><i class="fa-brands fa-twitter text-white"></i></a>
           <a href="#"><i class="fa-brands fa-youtube text-white"></i></a>
