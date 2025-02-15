@@ -34,6 +34,7 @@ body {
   background-repeat: repeat;
   padding: 5px;
   /* width:33%; */
+  opacity: 0.7;
 }
 
 .my-recent-desing {
@@ -73,9 +74,10 @@ body {
 }
 
 .about-me-img {
-  background-image: url("/assets/doodleitems.png");
+  /* background-image: url("/assets/doodleitems.png"); */
   width: 100%;
   height: auto;
+  opacity: 0.5;
 }
 
 .social-icon {
@@ -89,4 +91,17 @@ body {
   margin: 10px;
   border-radius: 100px;
   text-decoration: none;
+}
+
+.contact-img-section {
+  min-width: 317px;
+  /* height: 408px; */
+  height: auto;
+  /* margin-left: 317px;
+  margin-right: 100px; */
+  padding-left: 200px;
+}
+
+.div-hide {
+  width: 200px;
 }

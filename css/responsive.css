@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+  .my-recent-desing {
+    background-color: #423d3d76;
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .my-recent-desing {
+    background-color: #423d3d76;
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* contact image */
+@media screen and (max-width: 600px) {
+  .contact-img-section {
+    width: 100% !important;
+    /* height: 408px; */
+    height: auto;
+    /* margin-left: 317px;
+    margin-right: 100px; */
+  }
+  .div-hide {
+    display: none;
+  }
+  .form {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contact-img-section {
+    width: 100% !important;
+    /* background-color: green; */
+    /* height: 408px; */
+    /* height: auto; */
+    /* margin-left: 317px;
+    margin-right: 100px;
+    padding-left: 0; */
+  }
+  .div-hide {
+    width: 1px;
+  }
+  .form {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .my-recent-desing {
+    background-color: #423d3d76;
+    /* width: 100%; */
+    /* height: auto;
+    padding: 45px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; */
+    min-width: 300px;
+  }
+
+  .form {
+    padding-top: 200px;
+  }
+}
