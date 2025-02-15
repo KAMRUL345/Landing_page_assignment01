@@ -75,8 +75,8 @@ body {
 
 .about-me-img {
   /* background-image: url("/assets/doodleitems.png"); */
-  width: 100%;
-  height: auto;
+  /* width: 70%; */
+  /* height: auto; */
   opacity: 0.5;
 }
 
@@ -84,14 +84,14 @@ body {
   display: flex;
   justify-content: center;
 }
-
+/* 
 .social-icon a {
   background-color: #00000076;
   padding: 10px;
   margin: 10px;
   border-radius: 100px;
   text-decoration: none;
-}
+} */
 
 .contact-img-section {
   min-width: 317px;
